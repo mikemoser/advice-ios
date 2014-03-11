@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F87C632B18CF8571007E4945 /* ADVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C632718CF8571007E4945 /* ADVAppDelegate.m */; };
-		F87C632C18CF8571007E4945 /* advice-ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F87C632818CF8571007E4945 /* advice-ios-Info.plist */; };
-		F87C632D18CF8571007E4945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C632A18CF8571007E4945 /* main.m */; };
 		F87C633518CF8584007E4945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87C633418CF8584007E4945 /* Main.storyboard */; };
 		F87C633918CF858E007E4945 /* ADVDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C633818CF858E007E4945 /* ADVDataService.m */; };
 		F87C633D18CF8642007E4945 /* ADVMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C633C18CF8642007E4945 /* ADVMessage.m */; };
 		F87C634118CF8690007E4945 /* ADVMainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C634018CF8690007E4945 /* ADVMainUIViewController.m */; };
+		F87C634818CF9301007E4945 /* ADVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C634418CF9301007E4945 /* ADVAppDelegate.m */; };
+		F87C634A18CF9301007E4945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C634718CF9301007E4945 /* main.m */; };
 		F8CB8B0F18CE298500078674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CB8B0E18CE298500078674 /* Foundation.framework */; };
 		F8CB8B1118CE298500078674 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CB8B1018CE298500078674 /* CoreGraphics.framework */; };
 		F8CB8B1318CE298500078674 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CB8B1218CE298500078674 /* UIKit.framework */; };
@@ -37,11 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F87C632618CF8571007E4945 /* ADVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVAppDelegate.h; sourceTree = "<group>"; };
-		F87C632718CF8571007E4945 /* ADVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVAppDelegate.m; sourceTree = "<group>"; };
-		F87C632818CF8571007E4945 /* advice-ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "advice-ios-Info.plist"; sourceTree = "<group>"; };
-		F87C632918CF8571007E4945 /* advice-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "advice-ios-Prefix.pch"; sourceTree = "<group>"; };
-		F87C632A18CF8571007E4945 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F87C633418CF8584007E4945 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F87C633718CF858E007E4945 /* ADVDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVDataService.h; sourceTree = "<group>"; };
 		F87C633818CF858E007E4945 /* ADVDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVDataService.m; sourceTree = "<group>"; };
@@ -49,12 +43,17 @@
 		F87C633C18CF8642007E4945 /* ADVMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVMessage.m; sourceTree = "<group>"; };
 		F87C633F18CF8690007E4945 /* ADVMainUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVMainUIViewController.h; sourceTree = "<group>"; };
 		F87C634018CF8690007E4945 /* ADVMainUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVMainUIViewController.m; sourceTree = "<group>"; };
+		F87C634318CF9301007E4945 /* ADVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVAppDelegate.h; sourceTree = "<group>"; };
+		F87C634418CF9301007E4945 /* ADVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVAppDelegate.m; sourceTree = "<group>"; };
+		F87C634518CF9301007E4945 /* advice-ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "advice-ios-Info.plist"; sourceTree = "<group>"; };
+		F87C634618CF9301007E4945 /* advice-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "advice-ios-Prefix.pch"; sourceTree = "<group>"; };
+		F87C634718CF9301007E4945 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8CB8B0B18CE298500078674 /* advice-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "advice-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CB8B0E18CE298500078674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8CB8B1018CE298500078674 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F8CB8B1218CE298500078674 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F8CB8B1818CE298500078674 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F8CB8B2018CE298500078674 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		F8CB8B2018CE298500078674 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8CB8B2618CE298500078674 /* advice-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "advice-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CB8B2718CE298500078674 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F8CB8B2F18CE298500078674 /* advice-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "advice-iosTests-Info.plist"; sourceTree = "<group>"; };
@@ -86,20 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F87C632518CF8571007E4945 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				F8CB8B2018CE298500078674 /* Images.xcassets */,
-				F8CB8B1718CE298500078674 /* InfoPlist.strings */,
-				F87C632618CF8571007E4945 /* ADVAppDelegate.h */,
-				F87C632718CF8571007E4945 /* ADVAppDelegate.m */,
-				F87C632818CF8571007E4945 /* advice-ios-Info.plist */,
-				F87C632918CF8571007E4945 /* advice-ios-Prefix.pch */,
-				F87C632A18CF8571007E4945 /* main.m */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
 		F87C632E18CF857D007E4945 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,11 +169,17 @@
 		F8CB8B1418CE298500078674 /* advice-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F87C634318CF9301007E4945 /* ADVAppDelegate.h */,
+				F87C634418CF9301007E4945 /* ADVAppDelegate.m */,
+				F87C634518CF9301007E4945 /* advice-ios-Info.plist */,
+				F87C634618CF9301007E4945 /* advice-ios-Prefix.pch */,
+				F87C634718CF9301007E4945 /* main.m */,
+				F8CB8B2018CE298500078674 /* Images.xcassets */,
+				F8CB8B1718CE298500078674 /* InfoPlist.strings */,
 				F87C633A18CF860F007E4945 /* Model */,
 				F87C633618CF858E007E4945 /* Services */,
 				F87C633318CF8584007E4945 /* Views */,
 				F87C632E18CF857D007E4945 /* Controllers */,
-				F87C632518CF8571007E4945 /* Application */,
 			);
 			path = "advice-ios";
 			sourceTree = "<group>";
@@ -287,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87C632C18CF8571007E4945 /* advice-ios-Info.plist in Resources */,
 				F87C633518CF8584007E4945 /* Main.storyboard in Resources */,
 				F8CB8B1918CE298500078674 /* InfoPlist.strings in Resources */,
 				F8CB8B2118CE298500078674 /* Images.xcassets in Resources */,
@@ -309,10 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87C634A18CF9301007E4945 /* main.m in Sources */,
 				F87C633918CF858E007E4945 /* ADVDataService.m in Sources */,
-				F87C632B18CF8571007E4945 /* ADVAppDelegate.m in Sources */,
 				F87C633D18CF8642007E4945 /* ADVMessage.m in Sources */,
-				F87C632D18CF8571007E4945 /* main.m in Sources */,
+				F87C634818CF9301007E4945 /* ADVAppDelegate.m in Sources */,
 				F87C634118CF8690007E4945 /* ADVMainUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +332,6 @@
 				F8CB8B1818CE298500078674 /* en */,
 			);
 			name = InfoPlist.strings;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		F8CB8B3018CE298500078674 /* InfoPlist.strings */ = {
@@ -436,8 +425,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "advice-ios/application/advice-ios-Prefix.pch";
-				INFOPLIST_FILE = "advice-ios/application/advice-ios-Info.plist";
+				GCC_PREFIX_HEADER = "advice-ios/advice-ios-Prefix.pch";
+				INFOPLIST_FILE = "advice-ios/advice-ios-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -449,8 +438,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "advice-ios/application/advice-ios-Prefix.pch";
-				INFOPLIST_FILE = "advice-ios/application/advice-ios-Info.plist";
+				GCC_PREFIX_HEADER = "advice-ios/advice-ios-Prefix.pch";
+				INFOPLIST_FILE = "advice-ios/advice-ios-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
