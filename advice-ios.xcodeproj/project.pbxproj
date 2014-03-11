@@ -52,7 +52,7 @@
 		F8CB8B2F18CE298500078674 /* advice-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "advice-iosTests-Info.plist"; sourceTree = "<group>"; };
 		F8CB8B3118CE298500078674 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8CB8B3318CE298500078674 /* advice_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = advice_iosTests.m; sourceTree = "<group>"; };
-		F8CFA70318CE4653002F6890 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8CFA70318CE4653002F6890 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "advice-ios/Main.storyboard"; sourceTree = "<group>"; };
 		F8CFA70818CE4817002F6890 /* ADVMainUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADVMainUIViewController.h; path = "advice-ios/ADVMainUIViewController.h"; sourceTree = "<group>"; };
 		F8CFA70918CE4817002F6890 /* ADVMainUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADVMainUIViewController.m; path = "advice-ios/ADVMainUIViewController.m"; sourceTree = "<group>"; };
 		F8EA4CC018CE50400085F515 /* ADVDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADVDataManager.h; path = "advice-ios/ADVDataManager.h"; sourceTree = "<group>"; };
@@ -88,9 +88,6 @@
 		F8CB8B0218CE298500078674 = {
 			isa = PBXGroup;
 			children = (
-				F8EA4CC518CE5D0A0085F515 /* ViewControllers */,
-				F8EA4CC418CE5CFC0085F515 /* Model */,
-				F8EA4CC318CE5CE20085F515 /* Services */,
 				F8CB8B1418CE298500078674 /* advice-ios */,
 				F8CB8B2D18CE298500078674 /* advice-iosTests */,
 				F8CB8B0D18CE298500078674 /* Frameworks */,
@@ -121,11 +118,14 @@
 		F8CB8B1418CE298500078674 /* advice-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F8EA4CC918CED6B90085F515 /* Views */,
+				F8EA4CC518CE5D0A0085F515 /* ViewControllers */,
+				F8EA4CC418CE5CFC0085F515 /* Model */,
+				F8EA4CC318CE5CE20085F515 /* Services */,
 				F8CB8B1D18CE298500078674 /* ADVAppDelegate.h */,
 				F8CB8B1E18CE298500078674 /* ADVAppDelegate.m */,
 				F8CB8B2018CE298500078674 /* Images.xcassets */,
 				F8CB8B1518CE298500078674 /* Supporting Files */,
-				F8CFA70318CE4653002F6890 /* Main.storyboard */,
 			);
 			path = "advice-ios";
 			sourceTree = "<group>";
@@ -166,6 +166,7 @@
 				F8EA4CC118CE50400085F515 /* ADVDataManager.m */,
 			);
 			name = Services;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F8EA4CC418CE5CFC0085F515 /* Model */ = {
@@ -175,6 +176,7 @@
 				F8EA4CC718CE80150085F515 /* ADVMessage.m */,
 			);
 			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F8EA4CC518CE5D0A0085F515 /* ViewControllers */ = {
@@ -184,6 +186,16 @@
 				F8CFA70918CE4817002F6890 /* ADVMainUIViewController.m */,
 			);
 			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F8EA4CC918CED6B90085F515 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8CFA70318CE4653002F6890 /* Main.storyboard */,
+			);
+			name = Views;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
