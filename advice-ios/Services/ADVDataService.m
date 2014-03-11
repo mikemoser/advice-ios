@@ -1,20 +1,20 @@
 //
-//  ADVDataManager.m
+//  ADVDataService.m
 //  advice-ios
 //
 //  Created by Michael Moser on 3/10/14.
 //  Copyright (c) 2014 Michael Moser. All rights reserved.
 //
 
-#import "ADVDataManager.h"
+#import "ADVDataService.h"
 
-@interface ADVDataManager() {
+@interface ADVDataService() {
     NSMutableData *_responseData;
 }
 
 @end
 
-@implementation ADVDataManager
+@implementation ADVDataService
 
 @synthesize delegate;
 

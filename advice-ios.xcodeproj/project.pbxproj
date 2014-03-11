@@ -11,7 +11,7 @@
 		F87C632C18CF8571007E4945 /* advice-ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F87C632818CF8571007E4945 /* advice-ios-Info.plist */; };
 		F87C632D18CF8571007E4945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C632A18CF8571007E4945 /* main.m */; };
 		F87C633518CF8584007E4945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87C633418CF8584007E4945 /* Main.storyboard */; };
-		F87C633918CF858E007E4945 /* ADVDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C633818CF858E007E4945 /* ADVDataManager.m */; };
+		F87C633918CF858E007E4945 /* ADVDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C633818CF858E007E4945 /* ADVDataService.m */; };
 		F87C633D18CF8642007E4945 /* ADVMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C633C18CF8642007E4945 /* ADVMessage.m */; };
 		F87C634118CF8690007E4945 /* ADVMainUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C634018CF8690007E4945 /* ADVMainUIViewController.m */; };
 		F8CB8B0F18CE298500078674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CB8B0E18CE298500078674 /* Foundation.framework */; };
@@ -43,8 +43,8 @@
 		F87C632918CF8571007E4945 /* advice-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "advice-ios-Prefix.pch"; sourceTree = "<group>"; };
 		F87C632A18CF8571007E4945 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F87C633418CF8584007E4945 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F87C633718CF858E007E4945 /* ADVDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVDataManager.h; sourceTree = "<group>"; };
-		F87C633818CF858E007E4945 /* ADVDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVDataManager.m; sourceTree = "<group>"; };
+		F87C633718CF858E007E4945 /* ADVDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVDataService.h; sourceTree = "<group>"; };
+		F87C633818CF858E007E4945 /* ADVDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVDataService.m; sourceTree = "<group>"; };
 		F87C633B18CF8642007E4945 /* ADVMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVMessage.h; sourceTree = "<group>"; };
 		F87C633C18CF8642007E4945 /* ADVMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVMessage.m; sourceTree = "<group>"; };
 		F87C633F18CF8690007E4945 /* ADVMainUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVMainUIViewController.h; sourceTree = "<group>"; };
@@ -119,8 +119,8 @@
 		F87C633618CF858E007E4945 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F87C633718CF858E007E4945 /* ADVDataManager.h */,
-				F87C633818CF858E007E4945 /* ADVDataManager.m */,
+				F87C633718CF858E007E4945 /* ADVDataService.h */,
+				F87C633818CF858E007E4945 /* ADVDataService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87C633918CF858E007E4945 /* ADVDataManager.m in Sources */,
+				F87C633918CF858E007E4945 /* ADVDataService.m in Sources */,
 				F87C632B18CF8571007E4945 /* ADVAppDelegate.m in Sources */,
 				F87C633D18CF8642007E4945 /* ADVMessage.m in Sources */,
 				F87C632D18CF8571007E4945 /* main.m in Sources */,

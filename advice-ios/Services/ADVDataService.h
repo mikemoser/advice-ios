@@ -1,5 +1,5 @@
 //
-//  ADVDataManager.h
+//  ADVDataService.h
 //  advice-ios
 //
 //  Created by Michael Moser on 3/10/14.
@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "ADVMessage.h"
 
-@protocol DataManagerDelegate;
+@protocol DataServiceDelegate;
 
-@interface ADVDataManager : NSObject<NSURLConnectionDelegate>
-@property id<DataManagerDelegate> delegate;
+@interface ADVDataService : NSObject<NSURLConnectionDelegate>
+@property id<DataServiceDelegate> delegate;
 - (void) ask:(ADVMessage *)message;
 @end
 
-@protocol DataManagerDelegate<NSObject>
+@protocol DataServiceDelegate<NSObject>
 @required
 - (void) askCompleted:(ADVMessage *)message;
 @end

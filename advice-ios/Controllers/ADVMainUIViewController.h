@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ADVDataManager.h"
+#import "ADVDataService.h"
 
-@interface ADVMainUIViewController : UIViewController<DataManagerDelegate>
+@interface ADVMainUIViewController : UIViewController<DataServiceDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *messageTextField;
 @property (weak, nonatomic) IBOutlet UITextField *responseTextField;
 @property (weak, nonatomic) IBOutlet UIButton *ask;

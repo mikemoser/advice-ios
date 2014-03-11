@@ -7,11 +7,11 @@
 //
 
 #import "ADVMainUIViewController.h"
-#import "ADVDataManager.h"
+#import "ADVDataService.h"
 #import "ADVMessage.h"
 
 @interface ADVMainUIViewController ()
-
+@property ADVDataService *dataService;
 @end
 
 @implementation ADVMainUIViewController
@@ -31,7 +31,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+	// Initialize a single instance of the dataService
+    self.dataService = [[ADVDataService alloc] init];
+    self.dataService.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,13 +44,10 @@
 }
 
 - (IBAction)ask:(id)sender {
-    ADVDataManager *dataManager = [[ADVDataManager alloc] init];
-    dataManager.delegate = self;
-    
     ADVMessage *message = [[ADVMessage alloc] init];
     message.text = messageTextField.text;
     
-    [dataManager ask:message];
+    [self.dataService ask:message];
 }
 
 - (void) askCompleted:(ADVMessage *)message {
